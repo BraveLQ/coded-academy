@@ -1,15 +1,15 @@
 <template>
 
     <div class="bg-primary" style="border-radius: 0 0 300px 0">
-        <div class="h-10 pt-6">
+        <div class="h-10 pt-6 px-6">
             <nav class="border-gray-200 px-4 lg:px-6 py-2.5">
                 <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                     <a href="#" class="flex items-center">
-                        <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">codedAcademy</span>
+                        <span class="self-center text-md font-semibold whitespace-nowrap dark:text-white">codedAcademy</span>
                     </a>
                     <div class="flex items-center lg:order-2">
-                        <a href="#" class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Log in</a>
-                        <a href="#" class="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800">Get started</a>
+                        <a href="#" class="hidden md:visible  text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Log in</a>
+                        <a href="#" class="hidden md:visible text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800">Get started</a>
                         <button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
                             <span class="sr-only">Open main menu</span>
                             <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
@@ -36,23 +36,32 @@
             </nav>
         </div>
 
-        <div class="flex text-white grid lg:grid-cols-2 grid-cols-1">
-            <div class="mx-auto justify-center my-auto  ml-24 py-28">
-                <h1 class="font-bold text-6xl ml">Upgrade YOUR skills for better future</h1>
+        <div class="flex text-white grid lg:grid-cols-2 grid-cols-1 py-24 md:py-2">
+            <div class="mx-auto justify-center my-auto  px-24 ">
+                <h1 class="font-bold md:text-6xl text-2xl">Upgrade YOUR skills for better future</h1>
                 <p class="pt-10">Lorem ipsum dolor sit amet consectetur. Erat in commodo in a. Sit interdum mi felis laoreet sagittis.</p>
-                <div class="pt-12 space-x-8">
-                    <button class="text-white bg-pink-400 py-2 px-6 rounded-xl">Check Courses</button>
-                    <button class="py-2 px-6 bg-transparent border-2 rounded-xl">Learn more</button>
+                <div class="pt-12 space-x-8 grid grid-cols-1 md grid-cols-2">
+                        <button class="text-white bg-pink-400 py-2 px-6 rounded-xl text-sm">Check Courses</button>
+                        <button class="py-2 px-6 bg-transparent border-2 rounded-xl text-sm">Learn more</button>
                 </div>
             </div>
-            <div class="py-12">
+            <div class="lg:py-12 ">
                 <img class="h-4/5 px-16 ml-12" src="/image/saly-10.png">
             </div>
         </div>
     </div>
 
-    <div>
-        <h1></h1>
+    <div class="px-24">
+        <h1 class="text-4xl font-bold py-8">Our Courses</h1>
+
+        <div class="flex">
+            <div class="drop-shadow-lg bg-slate-200">
+                <img src="/image/rectangle.png">
+                <div class="py-4 px-5">
+                    <h1 class="bg-gray-400 rounded-md px-4 py-1 w-1/2">Web Design</h1>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
