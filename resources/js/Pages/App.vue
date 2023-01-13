@@ -167,9 +167,74 @@
     <div class="px-24">
         <h1 class="text-center text-4xl font-bold">Our Features and Services</h1>
         <p class=" w-1/2 text-center mx-auto pt-6">Lorem ipsum dolor sit amet consectetur. Erat in commodo in a. Sit interdum mi felis
-            laoreet sagittis.Lorem ipsum dolor sit amet consectetur. Erat in commodo in a. Sit interdum mi felis
-            laoreet sagittis.</p>
+            laoreet sagittis.Lorem ipsum dolor sit amet consectetur.</p>
     </div>
+
+<!--    Our Feature-->
+    <div class="px-48 justify-items-center flex grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div class="w-56 pt-16">
+            <div class="py-3">
+                <img class="h-9" src="image/i-key.svg">
+            </div>
+            <h1 class="font-bold py-2 text-xl">Life Time Access</h1>
+            <p>Lorem ipsum dolor sit amet consectetur. Erat in commodo in a.</p>
+        </div>
+        <div class="w-56 pt-16">
+            <div class="py-3">
+                <img class="h-9" src="image/i-monitor.svg">
+            </div>
+            <h1 class="font-bold py-2 text-xl">Online Classes</h1>
+            <p>Lorem ipsum dolor sit amet consectetur. Erat in commodo in a.</p>
+        </div>
+        <div class="w-56 pt-16">
+            <div class="py-3">
+                <img class="h-9" src="image/i-certificate.svg">
+            </div>
+            <h1 class="font-bold py-2 text-xl">Get Certificate</h1>
+            <p>Lorem ipsum dolor sit amet consectetur. Erat in commodo in a.</p>
+        </div>
+        <div class="w-56 pt-16">
+            <div class="py-3">
+                <img class="h-9" src="image/i-user.svg">
+            </div>
+            <h1 class="font-bold py-2 text-xl">Expert Trainers</h1>
+            <p>Lorem ipsum dolor sit amet consectetur. Erat in commodo in a.</p>
+        </div>
+        <div class="w-56 pt-16">
+            <div class="py-3">
+                <img class="h-9" src="image/i-badge_check.svg">
+            </div>
+            <h1 class="font-bold py-2 text-xl">Great Result</h1>
+            <p>Lorem ipsum dolor sit amet consectetur. Erat in commodo in a.</p>
+        </div>
+        <div class="w-56 pt-16">
+            <div class="py-3">
+                <img class="h-9" src="image/i-badge_dollar.svg">
+            </div>
+            <h1 class="font-bold py-2 text-xl">Best Price</h1>
+            <p>Lorem ipsum dolor sit amet consectetur. Erat in commodo in a.</p>
+        </div>
+    </div>
+    <!--    Our Feature-->
+
+
+    <div class="px-56 flex">
+        <div class="pt-32">
+            <img class="h-96" src="image/platform.png">
+        </div>
+
+        <div>
+            <h1>Best Platform to grow</h1>
+            <p>Lorem ipsum dolor sit amet consectetur. Erat in commodo in a. Sit interdum mi felis
+                laoreet sagittis.Lorem ipsum dolor sit amet consectetur.Erat in commodo in a. Sit interdum mi felis
+                laoreet sagittis.Lorem ipsum dolor sit amet consectetur.</p>
+
+            <button class="text-white bg-pink-400 rounded-xl text-sm py-2 px-4">Check Courses</button>
+        </div>
+
+    </div>
+
+
 </template>
 
 <script setup>
