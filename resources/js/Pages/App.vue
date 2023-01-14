@@ -72,7 +72,7 @@
                 </div>
             </div>
             <div class="lg:py-12 mx-auto lg:mx-0">
-                <img class="h-4/5 px-16 ml-12" src="/image/saly-10.png">
+                <img class="md:px-4 py-12 pb-36 md:ml-12" src="/image/banner2.svg">
             </div>
         </div>
     </div>
@@ -218,14 +218,14 @@
     <!--    Our Feature-->
 
 
-    <div class="px-56 flex">
-        <div class="pt-32">
-            <img class="h-96" src="image/platform.png">
+    <div class="lg:px-56 flex md:pt-32 pt-16 grid grid-cols-1 md:grid-cols-2">
+        <div class="flex-none mx-auto">
+            <img class="md:h-96 h-72" src="image/platform.png">
         </div>
 
-        <div>
-            <h1>Best Platform to grow</h1>
-            <p>Lorem ipsum dolor sit amet consectetur. Erat in commodo in a. Sit interdum mi felis
+        <div class="lg:pl-20 md:pl-0 px-20 mx-auto my-auto pt-8 md:pt-0">
+            <h1 class="text-4xl font-bold py-4">Best Platform to grow</h1>
+            <p class="pb-4">Lorem ipsum dolor sit amet consectetur. Erat in commodo in a. Sit interdum mi felis
                 laoreet sagittis.Lorem ipsum dolor sit amet consectetur.Erat in commodo in a. Sit interdum mi felis
                 laoreet sagittis.Lorem ipsum dolor sit amet consectetur.</p>
 
@@ -233,6 +233,42 @@
         </div>
 
     </div>
+    <div class="lg:px-56 flex md:pt-32 pt-16 grid grid-cols-1 md:grid-cols-2">
+        <div class="pl-20 my-auto pt-8 md:pt-0">
+            <h1 class="text-4xl font-bold py-4">24/7 Students Support</h1>
+            <p class="pb-4">Lorem ipsum dolor sit amet consectetur. Erat in commodo in a. Sit interdum mi felis
+                laoreet sagittis.Lorem ipsum dolor sit amet consectetur.Erat in commodo in a. Sit interdum mi felis
+                laoreet sagittis.Lorem ipsum dolor sit amet consectetur.</p>
+
+            <button class="text-white bg-violet-800 rounded-xl text-sm py-2 px-7">Read More</button>
+        </div>
+
+        <div class="flex-none mx-auto">
+            <img class="md:h-96 h-72" src="image/student_support.png">
+        </div>
+
+    </div>
+
+    <div class="lg:px-56 flex md:pt-32 pt-16 grid grid-cols-1 md:grid-cols-2">
+        <div class="flex-none mx-auto">
+            <img class="md:h-96 h-72" src="image/email.svg">
+        </div>
+
+        <div class="pl-20 my-auto pt-8 md:pt-0">
+            <h1 class="text-3xl font-bold py-4">Subscribe to our newsletter</h1>
+            <p class="pb-4">Lorem ipsum dolor sit amet consectetur. Erat in commodo in a. Sit interdum mi felis
+                laoreet sagittis.Lorem ipsum dolor sit amet consectetur.</p>
+
+            <div>
+                <form class="flex">
+                    <input class="rounded-l-lg py-2 px-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white" placeholder="Enter your email"/>
+                    <button class="px-8 py-2 rounded-lg bg-violet-800 text-white font-bold p-4 uppercase border-yellow-500 border-t border-b border-r">Join Now</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
 
 
 </template>
